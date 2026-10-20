@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block title %}Warum ich? | Krisztina Racz Portfolio{% endblock %}
+
+{% block content %}
+<section class="py-16 px-6 max-w-5xl mx-auto">
+
+    <!-- header -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-white">
+            Warum <span class="bg-gradient-to-r from-pink-500 to-cyan-400 bg-clip-text text-transparent">ich</span>  eine wertvolle Ergänzung <br>für Ihr <span class="bg-gradient-to-r from-pink-500 to-cyan-400 bg-clip-text text-transparent">IT-Team</span> bin
+        </h1>
+
+    </div>
+
+    <!-- argumente -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+
+        <!-- 1: höchstleistung -->
+        <div class="glass-card p-8 rounded-2xl border-l-4 border-l-emerald-400 glass-card-hover">
+            <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-2xl mb-4 border border-emerald-500/20">
+                <i class="fa-solid fa-award"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">1. Nachgewiesene Höchstleistung in der Umschulung</h3>
+            <p class="text-gray-300 text-xs sm:text-sm leading-relaxed mb-3">
+                Ich bringe fundierte theoretische Grundlagen und belegbare Top-Ergebnisse mit: In meinen LEK habe ich <strong>100 % in Python</strong>, <strong>100 % in Schutzbedarfsanalyse/Datenschutz</strong>, <strong>95 % in GUI-Entwicklung</strong> und <strong>91,45 % in Rechnungswesen/BWL</strong> erzielt.
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2 border-t border-brand-border/40">
+                <span class="text-[10px] font-mono px-2 py-1 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Python: 100%</span>
+                <span class="text-[10px] font-mono px-2 py-1 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Datenschutz: 100%</span>
+                <span class="text-[10px] font-mono px-2 py-1 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">GUI: 95%</span>
+                <span class="text-[10px] font-mono px-2 py-1 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">BWL: 91.45%</span>
+            </div>
+        </div>
+
+        <!-- 2: prozessverständnis -->
+        <div class="glass-card p-8 rounded-2xl border-l-4 border-l-brand-pink glass-card-hover">
+            <div class="w-12 h-12 rounded-xl bg-brand-pink/10 text-brand-pink flex items-center justify-center text-2xl mb-4 border border-brand-pink/20">
+                <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">2. Berufserfahrung & Prozessverständnis</h3>
+            <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">
+                Durch meine Vorerfahrung in der <strong>Produktionssteuerung, Planung und im Kundenservice</strong> verstehe ich betriebliche Abläufe aus der Praxis. Ich denke in klaren Prozessen, arbeite lösungsorientiert und bringe Zuverlässigkeit sowie ausgeprägten Teamgeist in die Softwareentwicklung ein.
+            </p>
+        </div>
+
+        <!-- 3: KI -->
+        <div class="glass-card p-8 rounded-2xl border-l-4 border-l-amber-400 glass-card-hover">
+            <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-2xl mb-4 border border-amber-500/20">
+                <i class="fa-solid fa-robot"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">3. Gezielter Einsatz von KI-Technologien</h3>
+            <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">
+                Ich nutze moderne KI-Werkzeuge sehr gewinnbringend – sei es zur Code-Optimierung, schnellen Fehlersuche oder zur Prozessautomatisierung. Dieser routinierte Umgang beschleunigt Entwicklungsaufgaben und schafft Freiräume für innovative Lösungen.
+            </p>
+        </div>
+
+        <!-- 4: 0 kosten -->
+        <div class="glass-card p-8 rounded-2xl border-l-4 border-l-brand-cyan glass-card-hover">
+            <div class="w-12 h-12 rounded-xl bg-brand-cyan/10 text-brand-cyan flex items-center justify-center text-2xl mb-4 border border-brand-cyan/20">
+                <i class="fa-solid fa-piggy-bank"></i>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">4. Gefördertes Pflichtpraktikum</h3>
+            <p class="text-gray-300 text-xs sm:text-sm leading-relaxed">
+                Da meine Umschulung über die Agentur für Arbeit gefördert wird, entstehen für Ihr Unternehmen keine Vergütungs- oder Gehaltnebenkosten. Sie erhalten eine motivierte, gut ausgebildete Verstärkung für Ihr Entwicklerteam.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- action banner -->
+    <div class="glass-card p-8 rounded-2xl border border-brand-cyan/40 text-center relative overflow-hidden">
+        <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-brand-cyan/10 rounded-full blur-2xl"></div>
+        <h3 class="text-2xl font-bold text-white mb-2">Bereit für ein Kennenlernen? 🤝</h3>
+        <p class="text-gray-300 text-sm max-w-xl mx-auto mb-6">
+            Ich freue mich darauf, mich persönlich vorzustellen und fundiertes Wissen aus meiner Umschulung in Ihr IT-Team einzubringen!
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a href="mailto:kristinaracz11@gmail.com" class="px-7 py-3 rounded-xl glass-card text-white font-semibold hover:border-brand-cyan transition-all border border-brand-border flex items-center gap-2 text-xs uppercase tracking-wider">
+                <i class="fa-solid fa-envelope text-brand-cyan"></i> Direkt E-Mail senden
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}
